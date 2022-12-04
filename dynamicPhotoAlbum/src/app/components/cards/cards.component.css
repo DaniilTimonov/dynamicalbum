@@ -1,0 +1,48 @@
+.imgsize {
+    width: 400px;
+    height: 500px;
+}
+.cardheader {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.card {
+    width: 600px;
+    height: 600px;
+    background-color: teal;
+    display: flex;
+}
+.textheaderblock {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+.opened_card {
+    width: 600px;
+    height: 600px;
+    background-color: brown;
+    border: 2px solid black;
+    z-index: 23;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 399px;
+  /*   display: none; */
+}
+.albumcontent {
+ 
+    width: 900px;
+   
+    border: 2px solid black;
+    position: absolute;
+    z-index: 2;
+}
+.albums {
+    z-index: 19;
+}
+.actualpicture {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}

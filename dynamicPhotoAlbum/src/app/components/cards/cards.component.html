@@ -1,0 +1,33 @@
+
+<ng-container *ngIf ="visible">
+    <div class="opened_card">
+        <div class="actualpicture">
+
+            
+        </div>
+      <div class="art_open">
+      <button (click)="onclose()">close</button>
+      </div>
+      </div>
+    </ng-container>
+
+    <div class="albumcontent">
+    </div>
+<ul>
+  <li *ngFor="let movie of Movies">
+    <div class="textheaderblock">
+    <p class="cardheader">  {{ movie.name }} </p>
+  </div>
+    <div class="card">
+
+<img class="imgsize" src={{movie.src}}> 
+
+<button  (click)="onclick()">открыть
+
+
+
+</button>
+</div>
+</li>
+
+</ul>

@@ -1,7 +1,8 @@
 
 <ng-container *ngIf ="visible">
     <div class="opened_card">
-        <div class="actualpicture">
+        <div *ngFor="let movie of Movies" class="actualpicture">
+<img  src={{movie.src}}> 
 
             
         </div>

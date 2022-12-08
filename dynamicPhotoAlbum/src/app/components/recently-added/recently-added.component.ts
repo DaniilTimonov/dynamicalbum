@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Word } from './Word'
 import { WordsList } from './WordsList'
-import { CardsComponent } from '../cards/cards.component';
+
 
 
 @Component({
